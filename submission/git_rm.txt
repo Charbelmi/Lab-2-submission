@@ -1,0 +1,41 @@
+root@Midoriya:~/lab-2-version-control-Charbelmi# git checkout main
+git pull origin main
+git merge feature-branch-rebase
+git push origin main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+From github.com:CU-CSCI3308-Fall2025/lab-2-version-control-Charbelmi
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Updating bc8979c..549ddfa
+Fast-forward
+ file1.txt      |  0
+ git_fetch.txt  |  7 +++++
+ git_log.txt    | 65 ++++++++++++++++++++++++++++++++++++++
+ git_rebase.txt | 67 ++++++++++++++++++++++++++++++++++++++++
+ remove.txt     |  0
+ 5 files changed, 139 insertions(+)
+ create mode 100644 file1.txt
+ create mode 100644 git_fetch.txt
+ create mode 100644 git_log.txt
+ create mode 100644 git_rebase.txt
+ create mode 100644 remove.txt
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 2.02 KiB | 1.01 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:CU-CSCI3308-Fall2025/lab-2-version-control-Charbelmi.git
+   bc8979c..549ddfa  main -> main
+root@Midoriya:~/lab-2-version-control-Charbelmi# git rm remove.txt
+rm 'remove.txt'
+root@Midoriya:~/lab-2-version-control-Charbelmi# git rm --cached <filename>
+bash: syntax error near unexpected token `newline'
+root@Midoriya:~/lab-2-version-control-Charbelmi# git commit
+
+
+
+1. No the file is deleted from git and the local directory
+2. use git rim when you want to remove the file from a directory and git. Use manual delete when you want to remove the file locally only. 
+3. git checkout HEAD -- remove.txt would restore the deleted file

@@ -1,0 +1,67 @@
+root@Midoriya:~/lab-2-version-control-Charbelmi# git checkout -b feature-branch-rebase
+Switched to a new branch 'feature-branch-rebase'
+root@Midoriya:~/lab-2-version-control-Charbelmi# git log --oneline --graph
+* bc8979c (HEAD -> feature-branch-rebase, origin/main, origin/feature-branch-fetch, origin/HEAD, main) Update 3
+*   712b6be Merge pull request #1 from CU-CSCI3308-Fall2025/Michael
+|\  
+| * ba68768 (origin/Michael) Version - <Person1> : <return value>
+|/  
+* 8898d9d updated README.md with team details
+* 2552846 add deadline
+*   f95ac84 Merge pull request #1 from CU-CSCI3308-Fall2025/alternate_branch
+|\  
+| *   8e05407 Merge branch 'main' into alternate_branch
+| |\  
+| | * 10474b0 Version - main : 2
+| * | ec73e17 Version - Person 1 : 1
+| |/  
+| * 7646666 updated README
+|/  
+* 60d2e91 Update README.md
+* ae01d4a Update README.md
+...skipping...
+* bc8979c (HEAD -> feature-branch-rebase, origin/main, origin/
+* bc8979c (HEAD -> feature-branch-rebase, origin/main, origin/feature-branch-fetch, origin/HEAD, main) Update 3
+*   712b6be Merge pull request #1 from CU-CSCI3308-Fall2025/Michael
+|\  
+| * ba68768 (origin/Michael) Version - <Person1> : <return value>
+|/  
+* 8898d9d updated README.md with team details
+* 2552846 add deadline
+*   f95ac84 Merge pull request #1 from CU-CSCI3308-Fall2025/alternate_branch
+|\  
+| *   8e05407 Merge branch 'main' into alternate_branch
+| |\  
+| | * 10474b0 Version - main : 2
+| * | ec73e17 Version - Person 1 : 1
+| |/  
+| * 7646666 updated README
+|/  
+* 60d2e91 Update README.md
+* ae01d4a Update README.md
+root@Midoriya:~/lab-2-version-control-Charbelmi# git rebase main
+Current branch feature-branch-rebase is up to date.
+root@Midoriya:~/lab-2-version-control-Charbelmi# git log --oneline --graph
+* bc8979c (HEAD -> feature-branch-rebase, origin/main, origin/feature-branch-fetch, origin/HEAD, main) Update 3
+*   712b6be Merge pull request #1 from CU-CSCI3308-Fall2025/Michael
+|\  
+| * ba68768 (origin/Michael) Version - <Person1> : <return value>
+|/  
+* 8898d9d updated README.md with team details
+* 2552846 add deadline
+*   f95ac84 Merge pull request #1 from CU-CSCI3308-Fall2025/alternate_branch
+|\  
+| *   8e05407 Merge branch 'main' into alternate_branch
+| |\  
+| | * 10474b0 Version - main : 2
+| * | ec73e17 Version - Person 1 : 1
+| |/  
+| * 7646666 updated README
+|/  
+* 60d2e91 Update README.md
+* ae01d4a Update README.md
+
+
+1. Nothing was changed because the before and after rebase was already up to date. 
+
+2. Git rebase applies your branch commits on top of the main branch. Git merge combines the histories. Merge would create unnecessary merge commit.

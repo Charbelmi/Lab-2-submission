@@ -1,0 +1,149 @@
+root@Midoriya:~/lab-2-version-control-Charbelmi# git log --oneline
+8beb275 (HEAD -> main) 5
+a1c3231 4
+71d94c3 3
+0d7addc 2
+f442b93 1
+38f352b (origin/main, origin/HEAD) Apply stashed changes: remove remove.txt, add git_rm.txt and git_stash.txt
+549ddfa (feature-branch-rebase, bugfix-branch-stash) Your commit message
+bc8979c (origin/feature-branch-fetch) Update 3
+712b6be Merge pull request #1 from CU-CSCI3308-Fall2025/Michael
+ba68768 (origin/Michael) Version - <Person1> : <return value>
+8898d9d updated README.md with team details
+2552846 add deadline
+f95ac84 Merge pull request #1 from CU-CSCI3308-Fall2025/alternate_branch
+8e05407 Merge branch 'main' into alternate_branch
+10474b0 Version - main : 2
+ec73e17 Version - Person 1 : 1
+7646666 updated README
+60d2e91 Update README.md
+...skipping...
+8beb275 (HEAD -> main) 5
+a1c3231 4
+71d94c3 3
+0d7addc 2
+f442b93 1
+38f352b (origin/main, origin/HEAD) Apply stashed changes: remove remove.txt, add git_rm.txt and git_stash.txt
+549ddfa (feature-branch-rebase, bugfix-branch-stash) Your commit message
+bc8979c (origin/feature-branch-fetch) Update 3
+712b6be Merge pull request #1 from CU-CSCI3308-Fall2025/Michael
+ba68768 (origin/Michael) Version - <Person1> : <return value>
+8898d9d updated README.md with team details
+2552846 add deadline
+f95ac84 Merge pull request #1 from CU-CSCI3308-Fall2025/alternate_branch
+8e05407 Merge branch 'main' into alternate_branch
+10474b0 Version - main : 2
+ec73e17 Version - Person 1 : 1
+7646666 updated README
+60d2e91 Update README.md
+ae01d4a Update README.md
+11ac68f Update README.md
+...skipping...
+8beb275 (HEAD -> main) 5
+a1c3231 4
+71d94c3 3
+0d7addc 2
+f442b93 1
+38f352b (origin/main, origin/HEAD) Apply stashed changes: remove remove.txt, add git_rm.txt and git_stash.txt
+549ddfa (feature-branch-rebase, bugfix-branch-stash) Your commit message
+bc8979c (origin/feature-branch-fetch) Update 3
+712b6be Merge pull request #1 from CU-CSCI3308-Fall2025/Michael
+ba68768 (origin/Michael) Version - <Person1> : <return value>
+8898d9d updated README.md with team details
+2552846 add deadline
+f95ac84 Merge pull request #1 from CU-CSCI3308-Fall2025/alternate_branch
+8e05407 Merge branch 'main' into alternate_branch
+10474b0 Version - main : 2
+ec73e17 Version - Person 1 : 1
+7646666 updated README
+60d2e91 Update README.md
+...skipping...
+8beb275 (HEAD -> main) 5
+a1c3231 4
+71d94c3 3
+0d7addc 2
+f442b93 1
+38f352b (origin/main, origin/HEAD) Apply stashed changes: remove remove.txt, add git_rm.txt and git_stash.txt
+549ddfa (feature-branch-rebase, bugfix-branch-stash) Your commit message
+bc8979c (origin/feature-branch-fetch) Update 3
+712b6be Merge pull request #1 from CU-CSCI3308-Fall2025/Michael
+ba68768 (origin/Michael) Version - <Person1> : <return value>
+8898d9d updated README.md with team details
+2552846 add deadline
+f95ac84 Merge pull request #1 from CU-CSCI3308-Fall2025/alternate_branch
+8e05407 Merge branch 'main' into alternate_branch
+10474b0 Version - main : 2
+ec73e17 Version - Person 1 : 1
+7646666 updated README
+60d2e91 Update README.md
+ae01d4a Update README.md
+root@Midoriya:~/lab-2-version-control-Charbelmi# git revert 71d94c
+Auto-merging revert-activity.txt
+CONFLICT (content): Merge conflict in revert-activity.txt
+error: could not revert 71d94c3... 3
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+root@Midoriya:~/lab-2-version-control-Charbelmi# git log --oneline
+8beb275 (HEAD -> main) 5
+a1c3231 4
+71d94c3 3
+0d7addc 2
+f442b93 1
+38f352b (origin/main, origin/HEAD) Apply stashed changes: remove remove.txt, add git_rm.txt and git_stash.txt
+549ddfa (feature-branch-rebase, bugfix-branch-stash) Your commit message
+bc8979c (origin/feature-branch-fetch) Update 3
+712b6be Merge pull request #1 from CU-CSCI3308-Fall2025/Michael
+ba68768 (origin/Michael) Version - <Person1> : <return value>
+8898d9d updated README.md with team details
+2552846 add deadline
+f95ac84 Merge pull request #1 from CU-CSCI3308-Fall2025/alternate_branch
+8e05407 Merge branch 'main' into alternate_branch
+10474b0 Version - main : 2
+ec73e17 Version - Person 1 : 1
+7646666 updated README
+60d2e91 Update README.md
+:
+8beb275 (HEAD -> main) 5
+a1c3231 4
+71d94c3 3
+0d7addc 2
+f442b93 1
+38f352b (origin/main, origin/HEAD) Apply stashed changes: remove remove.txt, add git_rm.txt and git_stash.txt
+549ddfa (feature-branch-rebase, bugfix-branch-stash) Your commit message
+bc8979c (origin/feature-branch-fetch) Update 3
+712b6be Merge pull request #1 from CU-CSCI3308-Fall2025/Michael
+ba68768 (origin/Michael) Version - <Person1> : <return value>
+8898d9d updated README.md with team details
+2552846 add deadline
+f95ac84 Merge pull request #1 from CU-CSCI3308-Fall2025/alternate_branch
+8e05407 Merge branch 'main' into alternate_branch
+10474b0 Version - main : 2
+ec73e17 Version - Person 1 : 1
+7646666 updated README
+60d2e91 Update README.md
+ae01d4a Update README.md
+11ac68f Update README.md
+19c19cb Initial commit
+:
+8beb275 (HEAD -> main) 5
+a1c3231 4
+71d94c3 3
+0d7addc 2
+f442b93 1
+38f352b (origin/main, origin/HEAD) Apply stashed changes: remove remove.txt, add git_rm.txt and git_stash.txt
+549ddfa (feature-branch-rebase, bugfix-branch-stash) Your commit message
+bc8979c (origin/feature-branch-fetch) Update 3
+712b6be Merge pull request #1 from CU-CSCI3308-Fall2025/Michael
+ba68768 (origin/Michael) Version - <Person1> : <return value>
+8898d9d updated README.md with team details
+2552846 add deadline
+f95ac84 Merge pull request #1 from CU-CSCI3308-Fall2025/alternate_branch
+8e05407 Merge branch 'main' into alternate_branch
+10474b0 Version - main : 2
+ec73e17 Version - Person 1 : 1
+7646666 updated README
+60d2e91 Update README.md

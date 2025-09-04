@@ -1,0 +1,11 @@
+root@Midoriya:~/lab-2-version-control-Charbelmi# git add main.cpp
+git commit -m "Merging changes with return value <selected value>"
+git push
+On branch Michael
+Your branch is up to date with 'origin/Michael'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+
+
+I believe the instructions are a bit off and so the branch is up to date. This seemed common across all the students in the lab. 

@@ -1,0 +1,79 @@
+root@Midoriya:~/lab-2-version-control-Charbelmi# git log --graph
+* commit bc8979c7043eac0409120aef326cb7690e4c516e (HEAD -> main, origin/main, origin/HEAD)
+| Author: Charbel Adwan <charbel.adwan@colorado.edu>
+| Date:   Thu Sep 4 10:47:00 2025 -0600
+| 
+|     Update 3
+|   
+*   commit 712b6be17c74f5e42b7eae3a271c60d5e0cb5cfc
+|\  Merge: 8898d9d ba68768
+| | Author: Charbelmi <charbel.adwan@colorado.edu>
+| | Date:   Thu Sep 4 10:31:24 2025 -0600
+| | 
+| |     Merge pull request #1 from CU-CSCI3308-Fall2025/Michael
+| |     
+| |     Version - <Person1> : <return value>
+| | 
+| * commit ba68768a77de6d98fdfbc99ef50605a3ff97cabb (origin/Michael)
+|/  Author: Charbel Adwan <charbel.adwan@colorado.edu>
+|   Date:   Thu Sep 4 10:18:08 2025 -0600
+|   
+|       Version - <Person1> : <return value>
+| 
+* commit 8898d9dfd609889a3c656bf951b32b063463d192
+| Author: Charbel Adwan <charbel.adwan@colorado.edu>
+| Date:   Thu Sep 4 10:16:42 2025 -0600
+| 
+|     updated README.md with team details
+| 
+* commit 25528464e225a49c728c13967292d74b4758113b
+| Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+| Date:   Thu Sep 4 15:38:46 2025 +0000
+| 
+|     add deadline
+|   
+*   commit f95ac84813e02cba206d352868ae55706dc45daa
+|\  Merge: 60d2e91 8e05407
+| | Author: Bhargav Shandilya <91686845+bhargavns@users.noreply.github.com>
+| | Date:   Wed Sep 3 23:53:57 2025 -0600
+| | 
+| |     Merge pull request #1 from CU-CSCI3308-Fall2025/altern
+set mark: ...skipping...
+* commit bc8979c7043eac0409120aef326cb7690e4c516e (HEAD -> mai
+n, origin/main, origin/HEAD)
+| Author: Charbel Adwan <charbel.adwan@colorado.edu>
+| Date:   Thu Sep 4 10:47:00 2025 -0600
+| 
+|     Update 3
+|   
+*   commit 712b6be17c74f5e42b7eae3a271c60d5e0cb5cfc
+|\  Merge: 8898d9d ba68768
+| | Author: Charbelmi <charbel.adwan@colorado.edu>
+| | Date:   Thu Sep 4 10:31:24 2025 -0600
+| | 
+| |     Merge pull request #1 from CU-CSCI3308-Fall2025/Michae
+l
+| |     
+| |     Version - <Person1> : <return value>
+| | 
+| * commit ba68768a77de6d98fdfbc99ef50605a3ff97cabb (origin/Mi
+chael)
+|/  Author: Charbel Adwan <charbel.adwan@colorado.edu>
+|   Date:   Thu Sep 4 10:18:08 2025 -0600
+|   
+|       Version - <Person1> : <return value>
+:
+
+
+
+
+Last modified: 
+
+
+root@Midoriya:~/lab-2-version-control-Charbelmi# git log -1 -- main.cpp
+commit ba68768a77de6d98fdfbc99ef50605a3ff97cabb (origin/Michael)
+Author: Charbel Adwan <charbel.adwan@colorado.edu>
+Date:   Thu Sep 4 10:18:08 2025 -0600
+
+    Version - <Person1> : <return value>
+root@Midoriya:~/lab-2-version-control-Charbelmi# 

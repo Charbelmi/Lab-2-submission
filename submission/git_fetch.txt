@@ -1,0 +1,15 @@
+root@Midoriya:~/lab-2-version-control-Charbelmi# git branch
+  Michael
+* main
+root@Midoriya:~/lab-2-version-control-Charbelmi# git fetch origin feature-branch-fetch
+From github.com:CU-CSCI3308-Fall2025/lab-2-version-control-Charbelmi
+ * branch            feature-branch-fetch -> FETCH_HEAD
+ * [new branch]      feature-branch-fetch -> origin/feature-branch-fetch
+
+
+
+
+
+ 1. Yes but only as a remote branch
+ 2. No, it still remote branch
+ 3.It would fetch all branches and updates from the remote branches.
